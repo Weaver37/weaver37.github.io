@@ -170,9 +170,8 @@ body::after {
 
 .brand-logo {
   display: block;
-  width: 28px;
-  height: 28px;
-  border-radius: 7px;
+  width: auto;
+  height: 18px;
 }
 
 .logo-text {
@@ -1024,21 +1023,18 @@ body::after {
 
 .footer-logo {
   display: block;
-  width: 28px;
-  height: 28px;
-  border-radius: 7px;
+  width: auto;
+  height: 18px;
 }
 
-/* Theme-specific logo files: the bright one (transparent ground) on the light
-   theme, the glowing one on dark. The dark file's ground matches --bg-primary;
-   lighten hides it against the translucent scrolled navbar. */
+/* Theme-specific W37 mark files, both on a transparent ground: dark letters
+   on the light theme, light letters on the dark theme. */
 .logo-light {
   display: block;
 }
 
 .logo-dark {
   display: none;
-  mix-blend-mode: lighten;
 }
 
 [data-theme="dark"] .logo-dark {
