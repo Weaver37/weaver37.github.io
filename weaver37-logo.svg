@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Weaver37 mark: a W woven from two V strokes; the second V passes under the first -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00e3f0"/><stop offset="1" stop-color="#00e3f0"/></linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="8"/></filter>
+    <mask id="under" maskUnits="userSpaceOnUse" x="0" y="0" width="256" height="256">
+      <rect width="256" height="256" fill="#fff"/>
+      <path d="M90,210 L106,210 L156,46 L140,46 Z" fill="#000" stroke="#000" stroke-width="21"/>
+    </mask>
+  </defs>
+  
+  <g fill="#00e3f0" opacity="0.22" filter="url(#glow)"><path d="M40,46 L56,46 L106,210 L90,210 Z"/><path d="M90,210 L106,210 L156,46 L140,46 Z"/><path d="M100,46 L116,46 L166,210 L150,210 Z" mask="url(#under)"/><path d="M150,210 L166,210 L216,46 L200,46 Z"/></g>
+  <g fill="url(#g)"><path d="M40,46 L56,46 L106,210 L90,210 Z"/><path d="M90,210 L106,210 L156,46 L140,46 Z"/><path d="M100,46 L116,46 L166,210 L150,210 Z" mask="url(#under)"/><path d="M150,210 L166,210 L216,46 L200,46 Z"/></g>
+</svg>
